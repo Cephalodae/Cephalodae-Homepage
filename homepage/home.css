@@ -1,1 +1,139 @@
+/*
+bg : c7f9cc
+on top: 80ed99
+rectangle: 57cc99
+darken rectangle: 38a3a5
+text font: 22577a
+*/
 
+body {
+  background-color: #c7f9cc;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.main_title {
+  background-color: #57cc99;
+  color: #22577a;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.main_title h1 {
+  font-size: 40px;
+  padding-left: 6px;
+  font-family: Monospace;
+  font-weight: bold;
+}
+
+.wave-text span {
+  gap: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.wave-text span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.wave-text span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.wave-text span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.wave-text span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.wave-text span:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.wave-text span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+.wave-text span:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+.wave-text span:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+.wave-text span:nth-child(10) {
+  animation-delay: 1.8s;
+}
+
+@keyframes wave {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.main_title p {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-left: 24px;
+  padding-bottom: 4px;
+  font-family: Monospace;
+  font-weight: normal;
+}
+
+.topnav {
+  background-color: #57cc99;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  padding-left: 6px;
+}
+
+.topnav a {
+  float: left;
+  color: #22577a text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Monospace;
+}
+
+/* Changes link color on hover */
+.topnav a:hover {
+  background-color: #38a3a5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #80ed99;
+  color: 22577a;
+}
