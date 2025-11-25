@@ -138,3 +138,46 @@ h1 {
   background-color: #80ed99;
   color: #22577a;
 }
+
+.container_date {
+  color: #22577a;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: calc(100vh - 117px);
+}
+
+.shape_date {
+  border-radius: 3px;
+  height: 97%;
+  margin-right: 0.8%;
+  background-color: #57cc99;
+}
+
+.text_date {
+  text-align: right;
+  font-size: 25px;
+  font-family: Monospace;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.text_date_desc {
+  text-align: right;
+  font-size: 15px;
+  font-family: "Times New Roman";
+  padding: 5px;
+  width: 150px;
+}
+
+.text_date:hover {
+  cursor: pointer;
+  background-color: #38a3a5;
+  color: black;
+}
+
+.text_date_desc:hover {
+  cursor: pointer;
+  background-color: #38a3a5;
+  color: black;
+}
