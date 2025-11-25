@@ -1,0 +1,35 @@
+﻿body {
+  background-color: #c7f9cc;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: #22577a;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+a {
+  display: flex;
+  justify-self: center;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+img {
+  width: 60vh;
+  display: flex;
+  justify-self: center;
+}
+
+.container {
+  display: flex;
+  justify-self: center;
+}
+
+.text_four {
+  font-size: 60px;
+  font-weight: bold;
+}
